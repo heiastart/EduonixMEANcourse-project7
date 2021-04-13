@@ -1,0 +1,24 @@
+{
+  "name": "EduonixMEANcourse-project7",
+  "version": "1.0.0",
+  "description": "A GraphQL project for a ToDo-list app/API using NodeJS and Prisma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heiastart/EduonixMEANcourse-project7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heiastart/EduonixMEANcourse-project7/issues"
+  },
+  "homepage": "https://github.com/heiastart/EduonixMEANcourse-project7#readme",
+  "dependencies": {
+    "apollo-server": "^2.22.2",
+    "graphql": "^15.5.0"
+  }
+}
