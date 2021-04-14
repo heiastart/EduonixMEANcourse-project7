@@ -90,7 +90,7 @@ const deleteEntry = (id) => {
 
 const resolvers = {
   Query: {
-    allEntries: getAllEntries 
+    allEntries: getAllEntries
   },
   Mutation: {
     createEntry: createEntry,  
