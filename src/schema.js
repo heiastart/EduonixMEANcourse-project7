@@ -72,8 +72,8 @@ const createEntry = (entryDetails) => {
 const updateEntry = ({id, entryDetails}) => {
   entries.map(entry => {
     if (id === entry.id) {
-      // Code to delete the current entry
-      return 'Entry with ID ' + entry.id + ' deleted successfully!'
+      entry = entryDetails
+      return entry
     }
   })
 }
@@ -81,8 +81,8 @@ const updateEntry = ({id, entryDetails}) => {
 const deleteEntry = (id) => {
   entries.map(entry => {
     if (id === entry.id) {
-      entry = entryDetails
-      return entry
+      // Code to delete the current entry
+      return 'Entry with ID ' + entry.id + ' deleted successfully!'
     }
   })
 }
